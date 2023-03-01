@@ -1,0 +1,44 @@
+input.txt:
+file1
+ file2
+file3
+  file4
+ file5
+
+Output:
+file: file1, parent: null
+stack: [file1]
+parentMap: {file1=null}
+file: file2, parent: file1
+stack: [file1, file2]
+parentMap: {file2=file1, file1=null}
+file: file3, parent: null
+stack: [file3]
+parentMap: {file2=file1, file3=null, file1=null}
+file: file4, parent: file3
+stack: [file3, file4]
+parentMap: {file4=file3, file2=file1, file3=null, file1=null}
+file: file5, parent: file3
+stack: [file3, file5]
+parentMap: {file4=file3, file5=file3, file2=file1, file3=null, file1=null}
+stack: [file1]parentMap: {file1=null}
+file: file2, parent: file1
+stack: [file1, file2]
+parentMap: {file2=file1, file1=null}
+file: file3, parent: null
+stack: [file3]
+parentMap: {file2=file1, file3=null, file1=null}
+file: file4, parent: file3
+stack: [file3, file4]
+parentMap: {file4=file3, file2=file1, file3=null, file1=null}
+file: file5, parent: file3
+stack: [file3, file5]
+parentMap: {file4=file3, file5=file3, file2=file1, file3=null, file1=null}
+
+output.txt:
+FILE       PARENT_FILE
+file4      file3
+file5      file3
+file2      file1
+file3      NULL
+file1      NULL

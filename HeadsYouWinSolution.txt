@@ -1,0 +1,80 @@
+Output:
+How many rounds do you want to play? 4
+Round 1:
+Player 1 tosses:
+Head Head Tail Tail Tail Head Head Tail Tail Head 
+Player 2 tosses:
+Tail Tail Tail Head Tail Tail Tail Head Head Tail 
+Player 1 heads are 5
+Player 2 heads are 3
+Winner is Player 1
+
+Round 2:
+Player 1 tosses:
+Tail Tail Tail Tail Head Tail Tail Tail Head Head
+Player 2 tosses:
+Head Tail Tail Head Tail Head Head Head Head Tail
+Player 1 heads are 3
+Player 2 heads are 6
+Winner is Player 2
+
+Round 3:
+Player 1 tosses:
+Tail Tail Head Tail Head Tail Head Head Tail Head
+Player 2 tosses:
+Head Head Head Tail Head Head Tail Head Head Head
+Player 1 heads are 5
+Player 2 heads are 8
+Winner is Player 2
+
+Round 4:
+Player 1 tosses:
+Tail Tail Tail Tail Tail Tail Head Head Tail Head
+Player 2 tosses:
+Head Head Tail Tail Head Head Head Tail Head Head
+Player 1 heads are 3
+Player 2 heads are 7
+Winner is Player 2
+
+Winning Count of Player 1: 1
+Winning Count of Player 2: 3
+Tie Count: 0
+
+Winning Count of Player 1: 16
+Winning Count of Player 2: 24
+Tie Count: -36
+Champion is Player 2
+
+CSV:
+
+										
+Round 1										
+Player1	Head	 Head	 Tail	 Tail	 Tail	 Head	 Head	 Tail	 Tail	 Head
+Player2	Tail	 Tail	 Tail	 Head	 Tail	 Tail	 Tail	 Head	 Head	 Tail
+Player 1 heads are 5										
+Player 2 heads are 3										
+Winner is Player 1										
+										
+										
+Round 2										
+Player1	 Tail	 Tail	 Tail	 Tail	 Head	 Tail	 Tail	 Tail	 Head	 Head
+Player2	 Head	 Tail	 Tail	 Head	 Tail	 Head	 Head	 Head	 Head	 Tail
+Player 1 heads are 3										
+Player 2 heads are 6										
+Winner is Player 2										
+										
+										
+Round 3										
+Player1	 Tail	 Tail	 Tail	 Tail	 Head	 Tail	 Tail	 Tail	 Head	 Head
+Player2	 Head	 Tail	 Tail	 Head	 Tail	 Head	 Head	 Head	 Head	 Tail
+Player 1 heads are 5										
+Player 2 heads are 8										
+Winner is Player 2										
+										
+										
+Round 4										
+Player1	 Tail	 Tail	 Tail	 Tail	 Tail	 Tail	 Head	 Head	 Tail	 Head
+Player2	 Head	 Head	 Tail	 Tail	 Head	 Head	 Head	 Tail	 Head	 Head
+Player 1 heads are 3										
+Player 2 heads are 7										
+Winner is Player 2										

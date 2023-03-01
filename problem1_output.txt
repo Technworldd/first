@@ -1,0 +1,4 @@
+Person A has to pay 112 rupees.
+Person B has to pay 12 rupees.
+Person C has to receive 288 rupees.
+Person D has to pay 162 rupees.
